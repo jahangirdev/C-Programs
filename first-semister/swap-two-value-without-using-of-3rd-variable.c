@@ -15,5 +15,5 @@ int main(){
     a = a-b;
 
     //print the swap values
-    printf("Swap values are a = %d, b = %d", a, b);
+    printf("Swaped values are a = %d, b = %d", a, b);
 }

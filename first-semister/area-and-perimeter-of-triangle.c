@@ -3,9 +3,9 @@
 int main(){
     int a, b , c, p;
     float s, area;
-    printf("Enter the values of 3 sides:");
+    printf("Enter the values of 3 sides:\n");
     //input 3 sides
-    scanf("%d%d%d", &a, &b, &c);
+    scanf("%d %d %d", &a, &b, &c);
     //calculate perimeter
     p = a+b+c;
     //calculate half of perimeter

@@ -35,7 +35,7 @@ void main(){
         default:
             printf("You didn't input right value. Please try again\n");
     }
-    printf("Press r to restart the program\n");
+    printf("Press r to restart the program. Or any other key to terminate the program.\n");
     scanf(" %c", &restart);
     if(restart == 'r' || restart == 'R'){
         goto start;
