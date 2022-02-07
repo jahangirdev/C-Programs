@@ -13,7 +13,9 @@ void main(){
     printf("Enter a number\n");
     scanf("%d", &n);
 
-    for(n; n != 1 && n != 0 ; n){
+    start:
+
+    if(n!=0 && n!=1){
         if(n&1){
             n = 3 * n + 1;
         }
@@ -21,5 +23,6 @@ void main(){
             n = n / 2;
         }
         printf("%d\n", n);
+        goto start;
     }
 }
