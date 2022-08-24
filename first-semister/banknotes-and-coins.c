@@ -2,7 +2,7 @@
 
 int main(){
     int i, noteCoinQuantity = 0, bankNotes[6] = {10000, 5000, 2000, 1000, 500, 200};
-    float N, tempMoney, coins[6] = {100, 50, 25, 10, 5, 1};
+    float N, tempMoney = 0, coins[6] = {100, 50, 25, 10, 5, 1};
     scanf("%f", &N);
 
     //calculating notes

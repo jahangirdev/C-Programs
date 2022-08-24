@@ -1,14 +1,15 @@
 #include<stdio.h>
+#include<string.h>
 void main(){
-    char str[50], revStr[50];
+    char S[100], revStr[100];
     printf("Enter a string\n");
-    gets(str);
-    strcpy(revStr, str);
+    fgets(S);
+    strcpy(revStr, S);
     strrev(revStr);
-    if(strcmp(str, revStr) == 0){
-        printf("The string is palindrome.");
+    if(strcmp(S, revStr) == 0){
+        printf("Yes\n");
     }
     else{
-        printf("The string is not palindrome");
+        printf("No\n");
     }
 }
